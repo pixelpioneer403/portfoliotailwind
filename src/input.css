@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+
+#mobile_navigation {
+    height: 0;
+    overflow: hidden;
+    transition: height 0.3s ease;
+}
+  
+#mobile_navigation.fullscreen {
+    height: 100vh;
+}
+
+.leading-desktop-header{
+    line-height: 1.5;
+}
+
+@tailwind components;
+@tailwind utilities;

@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Design</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="../dist/output.css" rel="stylesheet">
+</head>
+
+<body class="min-h-screen " style="background-image: url('./assets//svg//desktop_header.svg');">
+    <header class="relative max-h-screen">
+        <!-- Top Navigation for Mobile/Tablet bar Starting -->
+        <nav class="grid grid-cols-1 min-h-[65px] font-quicksand font-semibold backdrop-filter backdrop-blur-lg shadow-lg text-white p-4 w-full absolute top-0"
+            id="mobile_navigation">
+            <div class="grid grid-cols-2 items-center justify-between w-full max-h-20">
+                <img src="./assets/images/logo.png" class="w-10" alt="Logo">
+                <div class="flex w-full justify-end cursor-pointer">
+                    <svg id="navigation_btn" xmlns="http://www.w3.org/2000/svg" width="24"
+                        height="24" viewBox="0 0 24 24" style="fill: rgba(255, 255, 255, 1);">
+                        <path d="M4 6h16v2H4zm0 5h16v2H4zm0 5h16v2H4z"></path>
+                    </svg>
+                </div>
+            </div>
+            <ul class="h-full text-center text-xl hidden" id="navigation_items">
+                <a href="#">
+                    <li class="py-3">Home</li>
+                </a>
+                <a href="#about">
+                    <li class="py-3">About</li>
+                </a>
+                <a href="#services">
+                    <li class="py-3">Services</li>
+                </a>
+                <a href="#portfolio">
+                    <li class="py-3">Portfolio</li>
+                </a>
+                <a href="#contact">
+                    <li class="py-3">Contact</li>
+                </a>
+            </ul>
+        </nav>
+        <!-- Top Navigation bar for Mobile/Tablet Ending -->
+
+        <!-- Top Navigation for Larger Screens Starting -->
+
+        <!-- Top Navigation for Larger Screens Ending -->
+
+        <!-- Hero Section Starting -->
+        <section class="grid wow animate__animated animate__backInLeft grid-cols-1 lg:grid-cols-2 container mx-auto place-items-center w-full min-h-screen p-4 font-quicksand">
+            <div class="font-semibold h-1/2 grid grid-cols-1 justify-around">
+                <h6 class="text-white text-xl">FREELANCE DIGITAL DESIGNER</h6>
+                <h2 class="text-white text-6xl lg:text-7xl leading-relaxed lg:leading-desktop-header font-semibold">
+                    Hello, I’m Nancy Welcome to my World.</h2>
+                <button
+                    class="bg-sky-500 border border-sky-500 hover:bg-transparent text-white active:bg-sky-600 font-bold uppercase px-8 py-4 text-xl rounded outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150 max-w-xs"
+                    type="button">DOWNLOAD CV</button>
+            </div>
+            <div class="font-semibold h-1/2 grid grid-cols-1 justify-around">
+                <!-- <img class="scale-125" src="./assets/images/Vectary texture.png" alt="Hand"> -->
+            </div>
+
+        </section>
+        <!-- Hero Section Ending -->
+    </header>
+    <!-- Header Ended -->
+
+    <!-- Main Content Start -->
+    <main class="container mx-auto py-8 min-h-screen font-quicksand">
+        <!-- About Me Starting -->
+        <section class="flex justify-center items-center my-20 wow animate__animated animate__backInLeft" id="about">
+            <div class="grid grid-cols-1 hover:shadow-cyan-500/50  hover:transition-all lg:grid-cols-12 rounded-md  place-content-center w-full font-quicksand font-semibold backdrop-filter backdrop-blur-lg shadow-lg hover:shadow-2xl">
+                <div class="lg:col-span-4 ">
+                    <img src="./assets/images/about-7.jpg.jpg" class="w-full" alt="Image">
+                </div>
+                <div class="lg:col-span-8 h-full px-6 py-12 text-white flex flex-col justify-around">
+                    <div class="flex-1 flex flex-col justify-around gap-y-6">
+                        <h4 class="text-2xl font-medium">My About Details</h4>
+                        <h4 class="text-6xl font-bold">About Me</h4>
+                        <p class="text-slate-200 text-2xl font-light leading-loose">
+                            There are many variations of passages of Lorem Ipsum available, but the
+                            majority have suffered alteration in some form, by injected humour, or
+                            randomised words which dont look even slightly believable. If you are going
+                            to use a passage of Lorem Ipsum,
+                        </p>
+                    </div>
+                    <!-- Tabs Here -->
+                    <div class="flex-1">
+
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- About Me Ending -->
+
+        <!-- Service Section Starting -->
+        <section class="flex justify-center items-center my-20 wow animate__animated animate__backInLeft" id="services">
+            <div class=" grid grid-cols-1 font-quicksand font-semibold backdrop-filter backdrop-blur-lg w-full md:grid-cols-2 lg:grid-cols-3 text-white hover:shadow-cyan-500/50 hover:transition-all shadow-lg">
+                <div class="col-span-1 lg:col-span-3 px-10 py-14 h-full flex flex-col w-full items-start justify-around gap-y-8">
+                    <p class="text-xl ">What we can do for you</p>
+                    <p class="text-6xl ">My Services</p>
+                    <p class="text-2xl font-light text-start leading-loose">There are many variations of passages of
+                        Lorem Ipsum available, but the majority have suffered alteration.</p>
+                </div>
+                <div class="col-span-1 lg:col-span-1 px-10 py-14 h-full flex flex-col w-full items-start justify-around gap-y-5 border border-sky-500/50">
+                    <img src="./assets/svg/business-strategy.svg" alt="Business Stratagy">
+                    <p class="text-3xl">Business Stratagy</p>
+                    <p class="text-2xl font-light leading-loose">There are many variations of passages of Lorem Ipsum
+                        available, but the majority.</p>
+                </div>
+                <div class="col-span-1 lg:col-span-1 px-10 py-14 h-full flex flex-col w-full items-start justify-around gap-y-5 border border-sky-500/50">
+                    <img src="./assets/svg/website_development.svg" alt="Website Development">
+                    <p class="text-3xl">Website Development</p>
+                    <p class="text-2xl font-light leading-loose">There are many variations of passages of Lorem Ipsum
+                        available, but the majority.</p>
+                </div>
+                <div class="col-span-1 lg:col-span-1 px-10 py-14 h-full flex flex-col w-full items-start justify-around gap-y-5 border border-sky-500/50">
+                    <img src="./assets/svg/marketing_development_one.svg" alt="Marketing & Reporting">
+                    <p class="text-3xl">Marketing & Reporting</p>
+                    <p class="text-2xl font-light leading-loose">There are many variations of passages of Lorem Ipsum
+                        available, but the majority.</p>
+                </div>
+                <div class="col-span-1 lg:col-span-1 px-10 py-14 h-full flex flex-col w-full items-start justify-around gap-y-5 border border-sky-500/50">
+                    <img src="./assets/svg/mobile_development.svg" alt="Mobile Development">
+                    <p class="text-3xl">Mobile Development</p>
+                    <p class="text-2xl font-light leading-loose">There are many variations of passages of Lorem Ipsum
+                        available, but the majority.</p>
+                </div>
+                <div class="col-span-1 lg:col-span-1 px-10 py-14 h-full flex flex-col w-full items-start justify-around gap-y-5 border border-sky-500/50">
+                    <img src="./assets/svg/marketing_reporting.svg" alt="Marketing & Reporting">
+                    <p class="text-3xl">Marketing & Reporting</p>
+                    <p class="text-2xl font-light leading-loose">There are many variations of passages of Lorem Ipsum
+                        available, but the majority.</p>
+                </div>
+                <div class="col-span-1 lg:col-span-1 px-10 py-14 h-full flex flex-col w-full items-start justify-around gap-y-5 border border-sky-500/50">
+                    <img src="./assets/svg/app_development.svg" alt="App Development">
+                    <p class="text-3xl">App Development</p>
+                    <p class="text-2xl font-light leading-loose">There are many variations of passages of Lorem Ipsum
+                        available, but the majority.</p>
+                </div>
+            </div>
+        </section>
+        <!-- Service Section Ending -->
+
+        <!-- Portfolio Starting -->
+        <section id="portfolio" class="wow animate__animated animate__backInLeft my-20 min-h-screen hover:shadow-cyan-500/50 hover:transition-all shadow-lg text-white font-quicksand font-semibold backdrop-filter backdrop-blur-lg w-full">
+            <div class="container ">
+                <div>
+                    <div class="px-10 py-14 h-full flex flex-col w-full items-start justify-around gap-y-6">
+                        <p class="text-xl ">My complete project</p>
+                        <p class="text-6xl leading-relaxed">My Latest Project</p>
+                        <p class="text-2xl font-light text-start leading-loose">There are many variations of passages of
+                            Lorem Ipsum available, but the majority have suffered alteration.</p>
+                    </div>
+
+                    <!-- Portfolio Items Starting -->
+
+                    <div class="w-full mx-auto  grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 px-10 py-14">
+                        <div class="bg-orange-400 hover:shadow-cyan-500/50 hover:transition-all shadow-lg  min-h-[50vh] p-6 bg-no-repeat bg-cover relative"
+                            style="background-image: url('./assets/images/game_development.jpg');">
+                            <div
+                                class="overlay grid place-items-end p-6 absolute inset-0 bg-black bg-opacity-50 w-full h-full">
+                                <div class="w-full grid grid-cols-1 gap-y-7">
+                                    <p class="text-slate-300 text-2xl font-light">Development</p>
+                                    <p class="font-semibold text-4xl text-slate-100 leading-relaxed">Game Development
+                                    </p>
+                                    <button class="text-white px-3 py-2 border-2 border-slate-200">Case Study</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="bg-orange-400 hover:shadow-cyan-500/50 hover:transition-all shadow-lg  min-h-[50vh] p-6 bg-no-repeat bg-cover relative"
+                            style="background-image: url('./assets/images/reporting.jpg');">
+                            <div
+                                class="overlay grid place-items-end p-6 absolute inset-0 bg-black bg-opacity-50 w-full h-full">
+                                <div class="w-full grid grid-cols-1 gap-y-7">
+                                    <p class="text-slate-300 text-2xl font-light">Development</p>
+                                    <p class="font-semibold text-4xl text-slate-100 leading-relaxed">Reporting
+                                        Development</p>
+                                    <button class="text-white px-3 py-2 border-2 border-slate-200">Case Study</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="bg-orange-400 hover:shadow-cyan-500/50 hover:transition-all shadow-lg  min-h-[50vh] p-6 bg-no-repeat bg-cover relative"
+                            style="background-image: url('./assets/images/seo.jpg');">
+                            <div
+                                class="overlay grid place-items-end p-6 absolute inset-0 bg-black bg-opacity-50 w-full h-full">
+                                <div class="w-full grid grid-cols-1 gap-y-7">
+                                    <p class="text-slate-300 text-2xl font-light">Application Development</p>
+                                    <p class="font-semibold text-4xl text-slate-100 leading-relaxed">SEO Marketing</p>
+                                    <button class="text-white px-3 py-2 border-2 border-slate-200">Case Study</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="bg-orange-400 hover:shadow-cyan-500/50 hover:transition-all shadow-lg  min-h-[50vh] p-6 bg-no-repeat bg-cover relative"
+                            style="background-image: url('./assets/images/webdesign.png');">
+                            <div
+                                class="overlay grid place-items-end p-6 absolute inset-0 bg-black bg-opacity-50 w-full h-full">
+                                <div class="w-full grid grid-cols-1 gap-y-7">
+                                    <p class="text-slate-300 text-2xl font-light">Development</p>
+                                    <p class="font-semibold text-4xl text-slate-100 leading-relaxed">Web Design</p>
+                                    <button class="text-white px-3 py-2 border-2 border-slate-200">Case Study</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="bg-orange-400 hover:shadow-cyan-500/50 hover:transition-all shadow-lg  min-h-[50vh] p-6 bg-no-repeat bg-cover relative"
+                            style="background-image: url('./assets/images/app_marketing.jpg');">
+                            <div
+                                class="overlay grid place-items-end p-6 absolute inset-0 bg-black bg-opacity-50 w-full h-full">
+                                <div class="w-full grid grid-cols-1 gap-y-7">
+                                    <p class="text-slate-300 text-2xl font-light">Development</p>
+                                    <p class="font-semibold text-4xl text-slate-100 leading-relaxed">App Development</p>
+                                    <button class="text-white px-3 py-2 border-2 border-slate-200">Case Study</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="bg-orange-400 hover:shadow-cyan-500/50 hover:transition-all shadow-lg  min-h-[50vh] p-6 bg-no-repeat bg-cover relative"
+                            style="background-image: url('./assets/images/photoshop.png');">
+                            <div
+                                class="overlay grid place-items-end p-6 absolute inset-0 bg-black bg-opacity-50 w-full h-full">
+                                <div class="w-full grid grid-cols-1 gap-y-7">
+                                    <p class="text-slate-300 text-2xl font-light">Photoshop</p>
+                                    <p class="font-semibold text-4xl text-slate-100 leading-relaxed">Photoshop Design
+                                    </p>
+                                    <button class="text-white px-3 py-2 border-2 border-slate-200 inline-block">Case
+                                        Study</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Portfolio Items Ending -->
+
+                </div>
+            </div>
+        </section>
+        <!-- Portfolio Ending -->
+
+
+        <!-- Latest News Starting -->
+        <section id="portfolio" class="wow animate__animated animate__backInLeft my-20 min-h-screen hover:shadow-cyan-500/50 hover:transition-all shadow-lg text-white font-quicksand font-semibold backdrop-filter backdrop-blur-lg w-full">
+            <div class="container ">
+                <div>
+                    <div class="px-10 py-14 h-full flex flex-col w-full items-start justify-around gap-y-6">
+                        <p class="text-xl ">what's stories on</p>
+                        <p class="text-6xl leading-relaxed">Latest News</p>
+                        <p class="text-2xl font-light text-start leading-loose">There are many variations of passages of
+                            Lorem Ipsum available, but the majority have suffered alteration.</p>
+                    </div>
+
+                    <!-- News Items Starting -->
+
+                    <div class="w-full mx-auto  grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 px-10 py-14">
+                        <div class="bg-orange-400 hover:shadow-cyan-500/50 hover:transition-all shadow-lg  min-h-[50vh] p-6 bg-no-repeat bg-cover relative"
+                            style="background-image: url('./assets/images/article1.jpg');">
+                            <div
+                                class="overlay grid place-items-end p-6 absolute inset-0 bg-black bg-opacity-50 w-full h-full">
+                                <div class="w-full grid grid-cols-1 gap-y-7">
+                                    <p class="text-slate-300 text-2xl font-light">Development</p>
+                                    <p class="font-semibold text-4xl text-slate-100 leading-relaxed">Have You Heard?
+                                        Agency Is Your Best Bet To Grow</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="bg-orange-400 hover:shadow-cyan-500/50 hover:transition-all shadow-lg  min-h-[50vh] p-6 bg-no-repeat bg-cover relative"
+                            style="background-image: url('./assets/images/a.jpg');">
+                            <div
+                                class="overlay grid place-items-end p-6 absolute inset-0 bg-black bg-opacity-50 w-full h-full">
+                                <div class="w-full grid grid-cols-1 gap-y-7">
+                                    <p class="text-slate-300 text-2xl font-light">Gallery</p>
+                                    <p class="font-semibold text-4xl text-slate-100 leading-relaxed">Agency Works Only
+                                        Under These Conditions</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="bg-orange-400 hover:shadow-cyan-500/50 hover:transition-all shadow-lg  min-h-[50vh] p-6 bg-no-repeat bg-cover relative"
+                            style="background-image: url('./assets/images/article3.jpg');">
+                            <div
+                                class="overlay grid place-items-end p-6 absolute inset-0 bg-black bg-opacity-50 w-full h-full">
+                                <div class="w-full grid grid-cols-1 gap-y-7">
+                                    <p class="text-slate-300 text-2xl font-light">Development</p>
+                                    <p class="font-semibold text-4xl text-slate-100 leading-relaxed">Top 10 Tips To Grow
+                                        Your Agency</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- News Items Ending -->
+
+                </div>
+            </div>
+        </section>
+        <!-- Latest News Ending -->
+
+
+        <!-- Contact Us Starting -->
+        <section id="contact" class="my-20 wow animate__animated animate__backInLeft min-h-screen hover:shadow-cyan-500/50 hover:transition-all shadow-lg text-white font-quicksand font-semibold backdrop-filter backdrop-blur-lg w-full">
+            <div class="container ">
+                <div>
+
+                    <!-- Contact Columns Starting -->
+                    <div class="grid grid-cols-1 lg:grid-cols-2 px-10 py-14 gap-x-8">
+                        <div class="flex flex-col flex-1 flex-grow gap-y-6">
+                            <p class="font-light text-2xl leading-relaxed">Let's Say Hi</p>
+                            <p class="text-5xl">Hire Me.</p>
+                            <div class="text-2xl font-light">
+                                <p class="leading-relaxed">Call us directly: +111 (0)55 5869 8976</p>
+                                <p class="leading-relaxed">Contact Email: example@gmail.com</p>
+                            </div>
+
+                            <form action="#" method="POST">
+                                <div class="w-full my-6 md:my-8 lg:my-10">
+                                    <input
+                                        class="py-3 px-6 w-full bg-transparent border-2 font-quicksand font-light border-slate-300"
+                                        type="text" placeholder="Your Name *">
+                                </div>
+                                <div class="w-full my-6 md:my-8 lg:my-10">
+                                    <input
+                                        class="py-3 px-6 w-full bg-transparent border-2 font-quicksand font-light border-slate-300"
+                                        type="text" placeholder="Your Email *">
+                                </div>
+                                <div class="w-full my-6 md:my-8 lg:my-10">
+                                    <input
+                                        class="py-3 px-6 w-full bg-transparent border-2 font-quicksand font-light border-slate-300"
+                                        type="text" placeholder="Your Subject *">
+                                </div>
+                                <div class="w-full my-6 md:my-8 lg:my-10">
+                                    <textarea placeholder="Description" id="note" cols="30" rows="5"
+                                        class="py-3 font-quicksand font-light px-6 w-full bg-transparent border-2 border-slate-300"></textarea>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="flex-1 hidden lg:flex lg:flex-col lg:place-content-center">
+                            <img class="mx-auto" src="./assets/images/about-11.jpg" alt="Image">
+                        </div>
+                    </div>
+
+
+                    <!-- Contact Columns Ending -->
+
+                </div>
+            </div>
+        </section>
+        <!-- Contact Us Ending -->
+    </main>
+
+    <footer class="p-4 backdrop-filter backdrop-blur-lg w-full flex justify-between items-center">
+        <div><img src="./assets/images/logo.png" alt="Logo"></div>
+        <div class="grid grid-cols-4 gap-4 items-center">
+            <a href="#" class="rounded-full p-4 border-2 border-white">
+                <span>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: rgb(255, 255, 255);"><path d="M13.397 20.997v-8.196h2.765l.411-3.209h-3.176V7.548c0-.926.258-1.56 1.587-1.56h1.684V3.127A22.336 22.336 0 0 0 14.201 3c-2.444 0-4.122 1.492-4.122 4.231v2.355H7.332v3.209h2.753v8.202h3.312z"></path></svg>
+                </span>
+            </a>
+            <a href="#" class="rounded-full p-4 border-2 border-white">
+                <span>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: rgb(255, 255, 255);"><path d="M19.633 7.997c.013.175.013.349.013.523 0 5.325-4.053 11.461-11.46 11.461-2.282 0-4.402-.661-6.186-1.809.324.037.636.05.973.05a8.07 8.07 0 0 0 5.001-1.721 4.036 4.036 0 0 1-3.767-2.793c.249.037.499.062.761.062.361 0 .724-.05 1.061-.137a4.027 4.027 0 0 1-3.23-3.953v-.05c.537.299 1.16.486 1.82.511a4.022 4.022 0 0 1-1.796-3.354c0-.748.199-1.434.548-2.032a11.457 11.457 0 0 0 8.306 4.215c-.062-.3-.1-.611-.1-.923a4.026 4.026 0 0 1 4.028-4.028c1.16 0 2.207.486 2.943 1.272a7.957 7.957 0 0 0 2.556-.973 4.02 4.02 0 0 1-1.771 2.22 8.073 8.073 0 0 0 2.319-.624 8.645 8.645 0 0 1-2.019 2.083z"></path></svg>
+                </span>
+            </a>
+            <a href="#" class="rounded-full p-4 border-2 border-white">
+                <span>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: rgb(255, 255, 255);"><circle cx="4.983" cy="5.009" r="2.188"></circle><path d="M9.237 8.855v12.139h3.769v-6.003c0-1.584.298-3.118 2.262-3.118 1.937 0 1.961 1.811 1.961 3.218v5.904H21v-6.657c0-3.27-.704-5.783-4.526-5.783-1.835 0-3.065 1.007-3.568 1.96h-.051v-1.66H9.237zm-6.142 0H6.87v12.139H3.095z"></path></svg>
+                </span>
+            </a>
+            <a href="#" class="rounded-full p-4 border-2 border-white">
+                <span>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: rgb(255, 255, 255);"><path d="M11.999 7.377a4.623 4.623 0 1 0 0 9.248 4.623 4.623 0 0 0 0-9.248zm0 7.627a3.004 3.004 0 1 1 0-6.008 3.004 3.004 0 0 1 0 6.008z"></path><circle cx="16.806" cy="7.207" r="1.078"></circle><path d="M20.533 6.111A4.605 4.605 0 0 0 17.9 3.479a6.606 6.606 0 0 0-2.186-.42c-.963-.042-1.268-.054-3.71-.054s-2.755 0-3.71.054a6.554 6.554 0 0 0-2.184.42 4.6 4.6 0 0 0-2.633 2.632 6.585 6.585 0 0 0-.419 2.186c-.043.962-.056 1.267-.056 3.71 0 2.442 0 2.753.056 3.71.015.748.156 1.486.419 2.187a4.61 4.61 0 0 0 2.634 2.632 6.584 6.584 0 0 0 2.185.45c.963.042 1.268.055 3.71.055s2.755 0 3.71-.055a6.615 6.615 0 0 0 2.186-.419 4.613 4.613 0 0 0 2.633-2.633c.263-.7.404-1.438.419-2.186.043-.962.056-1.267.056-3.71s0-2.753-.056-3.71a6.581 6.581 0 0 0-.421-2.217zm-1.218 9.532a5.043 5.043 0 0 1-.311 1.688 2.987 2.987 0 0 1-1.712 1.711 4.985 4.985 0 0 1-1.67.311c-.95.044-1.218.055-3.654.055-2.438 0-2.687 0-3.655-.055a4.96 4.96 0 0 1-1.669-.311 2.985 2.985 0 0 1-1.719-1.711 5.08 5.08 0 0 1-.311-1.669c-.043-.95-.053-1.218-.053-3.654 0-2.437 0-2.686.053-3.655a5.038 5.038 0 0 1 .311-1.687c.305-.789.93-1.41 1.719-1.712a5.01 5.01 0 0 1 1.669-.311c.951-.043 1.218-.055 3.655-.055s2.687 0 3.654.055a4.96 4.96 0 0 1 1.67.311 2.991 2.991 0 0 1 1.712 1.712 5.08 5.08 0 0 1 .311 1.669c.043.951.054 1.218.054 3.655 0 2.436 0 2.698-.043 3.654h-.011z"></path></svg>
+                </span>
+            </a>
+        </div>
+        <div></div>
+    </footer>
+
+
+    <!-- Jquery -->
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/wowjs@1.1.3/dist/wow.min.js"></script>
+    <script> new WOW().init(); </script>
+    <!-- Main.js -->
+    <script src="main.js"></script>
+</body>
+
+</html>
